@@ -39,4 +39,6 @@ const Indices = React.forwardRef(({ setIndicesRef }, ref) => (
   </div>
 ));
 
+Indices.displayName = "Indices"
+
 export default Indices;

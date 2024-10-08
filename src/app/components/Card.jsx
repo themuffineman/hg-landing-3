@@ -14,4 +14,6 @@ const Card = React.forwardRef(({ id, phase, title, span }, ref) => (
   </div>
 ));
 
+Card.displayName = "Card"
+
 export default Card;
